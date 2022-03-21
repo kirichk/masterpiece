@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import StoryblokClient from "storyblok-js-client";
 
 const Storyblok = new StoryblokClient({
-  accessToken: "YOUR_PREVIEW_TOKEN",
+  accessToken: process.env.TOKEN,
   cache: {
     clear: "auto",
     type: "memory",
