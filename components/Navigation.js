@@ -33,8 +33,7 @@ const Navigation = ({ locale, locales, defaultLocale }) => {
             </Link>
           </div>
           <div className="text-black">
-            <p className="text-lg">Storyblok</p>
-            <p>NextJS Demo</p>
+            <p className="text-lg">The Storyblok Herald</p>
           </div>
           <div className="ml-auto md:hidden">
             <button
